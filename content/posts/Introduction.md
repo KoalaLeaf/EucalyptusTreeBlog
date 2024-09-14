@@ -1,7 +1,7 @@
 +++
 title = 'Introduction'
 date = 2024-09-14T14:56:18-07:00
-draft = true
+draft = false
 +++
 
 ### Why the hell is the point of this site
