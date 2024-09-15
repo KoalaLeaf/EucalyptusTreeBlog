@@ -13,14 +13,7 @@
       <link>http://localhost:1313/blog/introduction/</link>
       <pubDate>Sat, 14 Sep 2024 14:56:18 -0700</pubDate>
       <guid>http://localhost:1313/blog/introduction/</guid>
-      <description>&lt;h3 id=&#34;what-the-hell-is-the-point-of-this-site&#34;&gt;What the hell is the point of this site&lt;/h3&gt;&#xA;&lt;p&gt;Honestly dawg I got no clue.&lt;/p&gt;&#xA;&lt;p&gt;I dont have any major plans for this site. Its mainly just going to be an outlet for me to share and talk about things I&amp;rsquo;m interested in.&lt;/p&gt;&#xA;&lt;p&gt;I also am using it as an opportunity practice web development as I only have a little experience with HTML/CSS. However I can add shit like this:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Test1</title>
-      <link>http://localhost:1313/blog/9-14-2024/</link>
-      <pubDate>Sat, 14 Sep 2024 14:56:18 -0700</pubDate>
-      <guid>http://localhost:1313/blog/9-14-2024/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;what-the-hell-is-the-point-of-this-site&#34;&gt;What the hell is the point of this site&lt;/h1&gt;&#xA;&lt;p&gt;Honestly dawg I got no clue.&lt;/p&gt;&#xA;&lt;p&gt;I dont have any major plans for this site. Its mainly just going to be an outlet for me to share and talk about things I&amp;rsquo;m interested in.&lt;/p&gt;&#xA;&lt;p&gt;I also am using it as an opportunity practice web development as I only have a little experience with HTML/CSS. However I can add shit like this:&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Favorite Jams</title>
@@ -28,6 +21,13 @@
       <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/music/music/</guid>
       <description>&lt;p&gt;I like exchanging music, so here are my current top 5 favorite songs(subject to change):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/projects/saaand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/saaand/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&#34;en&#34;&gt;&#xA;  &lt;head&gt;&#xA;    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js&#34;&gt;&lt;/script&gt;&#xA;    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.sound.min.js&#34;&gt;&lt;/script&gt;&#xA;    &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;themes/ananke/assets/anathemes/ananke/resources/_gen/assets/css/ananke/css/main.css_83735de7ca999e9c17f3419b41b93fdb.contentnke/css/_tachyons.cssyle.css&#34;&gt;&#xA;    &lt;meta charset=&#34;utf-8&#34; /&gt;&#xA;&#xA;  &lt;/head&gt;&#xA;  &lt;body&gt;&#xA;    &lt;main&gt;&#xA;        &lt;h1&gt; Simple falling sand game. Only like 5 materials, coded like shit,very slow. I love it. &lt;/h1&gt;&#xA;        &lt;s1&gt; Controls: W/S changes brushsize. Scroll changes the element. Space to pause. &lt;/s1&gt;&#xA;    &lt;/main&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div id=&#34;projectWindow&#34; class=&#34;projectWindow&#34;&gt;&#xA;      &lt;!-- p5.js canvas will be attached here --&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &lt;script src=&#34;sketch.js&#34;&gt;&lt;/script&gt;&#xA;    &lt;script src=&#34;Grid.js&#34;&gt;&lt;/script&gt;&#xA;      &lt;style&gt;&#xA;    #myCanvas {&#xA;      overflow: hidden; /* Disables both horizontal and vertical scrolling */&#xA;      height: 100%; /* Adjust height as needed */&#xA;    }&#xA;  &lt;/style&gt;&#xA;  &lt;/body&gt;&#xA;&lt;/html&gt;</description>
     </item>
   </channel>
 </rss>

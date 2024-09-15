@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>KoalaLeaf</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="&lt;!DOCTYPE html&gt;
+
+  
+    
+    
+    
+    
+
+  
+  
+    
+         Simple falling sand game. Only like 5 materials, coded like shit,very slow. I love it. 
+         Controls: W/S changes brushsize. Scroll changes the element. Space to pause. 
+    
+
+
+    
+    
+      
+    
+
+    
+    
+      
+  
+">
+    <meta name="generator" content="Hugo 0.134.2">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/projects/saaand/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/projects/saaand/">
+  <meta property="og:site_name" content="KoalaLeaf">
+  <meta property="og:title" content="KoalaLeaf">
+  <meta property="og:description" content="&lt;!DOCTYPE html&gt; Simple falling sand game. Only like 5 materials, coded like shit,very slow. I love it. Controls: W/S changes brushsize. Scroll changes the element. Space to pause. ">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+
+  <meta itemprop="name" content="KoalaLeaf">
+  <meta itemprop="description" content="&lt;!DOCTYPE html&gt; Simple falling sand game. Only like 5 materials, coded like shit,very slow. I love it. Controls: W/S changes brushsize. Scroll changes the element. Space to pause. ">
+  <meta itemprop="wordCount" content="28">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="KoalaLeaf">
+  <meta name="twitter:description" content="&lt;!DOCTYPE html&gt; Simple falling sand game. Only like 5 materials, coded like shit,very slow. I love it. Controls: W/S changes brushsize. Scroll changes the element. Space to pause. ">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        KoalaLeaf
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About me page">
+              About me
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/music/" title="Music page">
+              Music
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/art/" title="My Art page">
+              My Art
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/projects/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+  <style>
+    #myCanvas.no-scroll {
+      overflow: hidden;
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var canvas = document.getElementById('myCanvas');
+      
+      
+      function disableScrolling() {
+        document.body.style.overflow = 'hidden';
+        document.documentElement.style.overflow = 'hidden';
+      }
+      
+      
+      function enableScrolling() {
+        document.body.style.overflow = '';
+        document.documentElement.style.overflow = '';
+      }
+      
+      if (canvas) {
+        canvas.addEventListener('mouseover', disableScrolling);
+        canvas.addEventListener('mouseout', enableScrolling);
+      }
+    });
+  </script>
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+        Projects
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1"></h1>
+      
+      
+      
+    </header>
+    <div id="myCanvas" class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="themes/ananke/assets/anathemes/ananke/resources/_gen/assets/css/ananke/css/main.css_83735de7ca999e9c17f3419b41b93fdb.contentnke/css/_tachyons.cssyle.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+        <h1> Simple falling sand game. Only like 5 materials, coded like shit,very slow. I love it. </h1>
+        <s1> Controls: W/S changes brushsize. Scroll changes the element. Space to pause. </s1>
+    </main>
+
+
+    
+    <div id="projectWindow" class="projectWindow">
+      <!-- p5.js canvas will be attached here -->
+    </div>
+
+    <script src="sketch.js"></script>
+    <script src="Grid.js"></script>
+      <style>
+    #myCanvas {
+      overflow: hidden; /* Disables both horizontal and vertical scrolling */
+      height: 100%; /* Adjust height as needed */
+    }
+  </style>
+  </body>
+</html>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  KoalaLeaf 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
