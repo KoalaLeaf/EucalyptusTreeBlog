@@ -1,11 +1,6 @@
 {{ define "header" }}
    {{/* We can override any block in the baseof file by defining it in the template */}}
   {{ partial "page-header.html" . }}
-  <style>
-    #myCanvas.no-scroll {
-      overflow: hidden;
-    }
-  </style>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       var canvas = document.getElementById('myCanvas');
@@ -35,11 +30,10 @@
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
     <header class="mt4 w-100">
       <aside class="instapaper_ignoref b helvetica tracked ttu">
-        {{ .CurrentSection.Title }}
+
       </aside>
       {{ partial "social-share.html" . }}
       <h1 class="f1 athelas mt3 mb1">
-        {{- .Title -}}
       </h1>
       {{ with .Params.author | default .Site.Params.author }}
       <p class="tracked">
