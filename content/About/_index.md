@@ -11,5 +11,5 @@ layout = "about"
 
 Name: Kobe
 Age: 20
-Sex: Yes.
+Sex: All the time.
 Ethnicity: That guy

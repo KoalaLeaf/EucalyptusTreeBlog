@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music on KoalaLeaf</title>
+    <link>http://localhost:1313/music/</link>
+    <description>Recent content in Music on KoalaLeaf</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Favorite Jams</title>
+      <link>http://localhost:1313/music/music/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/music/music/</guid>
+      <description>&lt;p&gt;I like exchanging music, so here are my current top 5 favorite songs(subject to change):&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
