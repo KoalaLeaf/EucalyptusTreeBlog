@@ -5,3 +5,9 @@ theme = 'ananke'
 
 
 sectionPagesMenu = 'main'
+
+
+
+capitalizeListTitles = true
+pluralizeListTitles = false
+
