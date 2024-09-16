@@ -6,14 +6,21 @@
     <description>Recent content in Blog on KoalaLeaf</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Sep 2024 14:56:18 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2024 14:56:18 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>I know bro im so excited, feel my nips.</title>
+      <title>Spotify count your days</title>
+      <link>http://localhost:1313/blog/9-16-2024/</link>
+      <pubDate>Sun, 15 Sep 2024 14:56:18 -0700</pubDate>
+      <guid>http://localhost:1313/blog/9-16-2024/</guid>
+      <description>&lt;h1 id=&#34;what-is-going-on-in-the-spotify-hq&#34;&gt;What is going on in the Spotify HQ?&lt;/h1&gt;&#xA;&lt;p&gt;It stands to reason that Spotify board of directors must have all collectively broken out a circus with how much buffoonery has occurred as a result of their &amp;lsquo;directing&amp;rsquo;.&lt;/p&gt;&#xA;&lt;p&gt;I had recently had the displeasure of trying to get an access token to their API. I spent multiple hours trying the stupid fucking curl command over and over again with a base64 encoder on my other monitor. After my 9th attempt, I was running low on my will to live. So I decided to just copy embedded links and you can see that result &lt;a href=&#34;http://localhost:1313/music&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I man Im so excited, feel my nips.</title>
       <link>http://localhost:1313/blog/9-15-2024/</link>
       <pubDate>Sat, 14 Sep 2024 14:56:18 -0700</pubDate>
       <guid>http://localhost:1313/blog/9-15-2024/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FnV0NsL4NRfE%2Fhqdefault.jpg&amp;amp;f=1&amp;amp;nofb=1&amp;amp;ipt=1428ed163f52f18a24a3d608e1d6aab809c301f5e48d908679f6b256191640e2&amp;amp;ipo=images&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2Fb5rnqyv1y7x61.jpg&amp;amp;f=1&amp;amp;nofb=1&amp;amp;ipt=178cf40897a556af618301090d565b6a53184012f8b3d32ad5df7ef269b7cb23&amp;amp;ipo=images&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I dont judge you guys its cool, i like yogurt up my ass and a popsicle stick in my mouth.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introduction</title>
@@ -21,13 +28,6 @@
       <pubDate>Sat, 14 Sep 2024 14:56:18 -0700</pubDate>
       <guid>http://localhost:1313/blog/introduction/</guid>
       <description>&lt;h1 id=&#34;what-the-hell-is-the-point-of-this-site&#34;&gt;What the hell is the point of this site&lt;/h1&gt;&#xA;&lt;p&gt;Honestly dawg I got no clue.&lt;/p&gt;&#xA;&lt;p&gt;I dont have any major plans for this site. Its mainly just going to be an outlet for me to share and talk about things I&amp;rsquo;m interested in.&lt;/p&gt;&#xA;&lt;p&gt;I also am using it as an opportunity practice web development as I only have a little experience with HTML/CSS. However I can add shit like this:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Spotify count your days </title>
-      <link>http://localhost:1313/blog/9-14-2024/</link>
-      <pubDate>Sat, 14 Sep 2024 14:56:18 -0700</pubDate>
-      <guid>http://localhost:1313/blog/9-14-2024/</guid>
-      <description>&lt;h1 id=&#34;what-is-going-on-in-the-spotify-hq&#34;&gt;What is going on in the Spotify HQ?&lt;/h1&gt;&#xA;&lt;p&gt;It stands to reason that Spotify board of directors must have all collectively broken out a circus with how much bafoonery has occured as a result of their &amp;lsquo;directing&amp;rsquo;.&lt;/p&gt;&#xA;&lt;p&gt;I had recently had the displeasure of trying to get an access token to their API. I spent multiple hours trying the stupid fucking curl command over and over again with a base64 encodeder on my other monitor. After my 9th attempt I was running low on my will to live. So I decided to just copy embeded links and you can see that result &lt;a href=&#34;http://localhost:1313/music&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
